@@ -12,8 +12,8 @@ export default function Home() {
   const [selected, setSelected] = useState(null);
   return (
     <>
-     <section className="flex  justify-center bg-blue-500 h-screen">
-       <div className="bg-white m-4 rounded-xl p-3 pb-16">
+     <section className="flex justify-center bg-blue-500 h-screen bg-gradient-to-b from-blue-500 via-purple-500 to-green-500 ">
+       <div className="bg-white m-4 rounded-xl p-3 pb-16 max-h-[540px]">
          <span><RxCross2 className="text-xl" /></span>
          <h1 className="text-xl font-medium">Leave a review </h1>
         <div className="mt-4">
