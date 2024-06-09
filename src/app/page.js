@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
      <section className="flex  justify-center bg-blue-500 h-screen">
-       <div className="bg-white m-4 rounded-xl p-3">
+       <div className="bg-white m-4 rounded-xl p-3 pb-16">
          <span><RxCross2 className="text-xl" /></span>
          <h1 className="text-xl font-medium">Leave a review </h1>
         <div className="mt-4">
